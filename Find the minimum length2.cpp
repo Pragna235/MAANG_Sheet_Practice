@@ -31,7 +31,7 @@ int findLength(vector<int> &arr, int n){
         }
     }
     int max = arr[start];
-    int min = arr[start];
+    int min = arr[end];
 
     // Find max and min of subarray.
     for (int i = start + 1; i < end + 1; i++){
