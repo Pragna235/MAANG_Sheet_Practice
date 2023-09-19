@@ -53,7 +53,7 @@ int countSwaps(string &str){
                 --temp;
             }
             
-            if(temp == i){
+            if(str[temp]==str[i]){
                 
                 // Swap.
                 swap(str[temp], str[temp + 1]);
