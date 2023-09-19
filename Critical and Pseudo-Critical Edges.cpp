@@ -98,7 +98,7 @@ vector<vector<int>> findCriticalAndPseudoCriticalEdges(int n, vector<vector<int>
 		edges[i].push_back(i);
 	}
 
-	sort(edges.begin(), edges.end(), [](const vector<int>& a, const vector<int>& b) {
+	sort(edges.begin(), edges.end(), [](const vector<int>& a, const vector<int>& b) { //sorting the edges vector based on the weights
 		return a[2] < b[2];
 	});
 
